@@ -7,6 +7,8 @@ This tool can translate Triply periodic minimal surface (TPMS) microstructure mo
 - Error-controlling: the tool can ensure that all translated STEP models are below a given error threshold;
 - Continuity-preserving: the tool can preserve the C2 continuity among surfaces of a TPMS model after translation.
 
+![pipeline](./pipeline.png)
+
 ## !important
 The source code was developed as a byproduct of the projects and methods presented in [1].
 
@@ -23,7 +25,7 @@ It can be compiled with GCC 11.4.0+CUDA 12.2, and run on the operating system Ub
 ----------
 
 - The source code can be downloaded from: 
-- 
+- [https://github.com/zpp323/TPMS2STEP](https://github.com/zpp323/TPMS2STEP)
 - or
 - [https://github.com/Qiang-Zou/TPMS2STEP](https://github.com/Qiang-Zou/TPMS2STEP)
   
